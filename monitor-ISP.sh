@@ -7,5 +7,5 @@ echo "ok, isp is responding"
 curl -fsS -m 3 -o /dev/null --data-raw "ISP is working" https://hc-ping.com/aaa-bbb-ccc #not commom option, IT admin often wants to get notified when outage is occuring
 else
 echo "not ok,isp is not working"
-curl -fsS -m 3 -o /dev/null --data-raw "ISP is not working" https://hc-ping.com/7e6162ac-8313-4031-a8d4-559d395daa60/fail
+curl -fsS -m 3 -o /dev/null --data-raw "ISP is not working" https://hc-ping.com/aaa-bbb-ccc/fail
 fi
